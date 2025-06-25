@@ -1,5 +1,5 @@
 import React from 'react';
-import { Play, Camera, ArrowRight, Award } from 'lucide-react';
+import { Play, Camera, ArrowRight, Award, PhoneCall } from 'lucide-react';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -74,13 +74,12 @@ const Hero = () => {
               <ArrowRight className="h-4 w-4 md:h-5 md:w-5 group-hover:translate-x-1 transition-transform duration-200" />
             </button>
             
-            <button 
-              onClick={() => scrollToSection('contact')}
-              className="group bg-white/10 backdrop-blur-sm text-white px-6 py-3 md:px-8 md:py-4 rounded-full font-semibold text-base md:text-lg border border-white/20 hover:bg-white/20 transform hover:scale-105 transition-all duration-300 flex items-center space-x-2 w-full sm:w-auto justify-center"
+            <a href='tel:99338830490'>
+              <button className="group bg-white/10 backdrop-blur-sm text-white px-6 py-3 md:px-8 md:py-4 rounded-full font-semibold text-base md:text-lg border border-white/20 hover:bg-white/20 transform hover:scale-105 transition-all duration-300 flex items-center space-x-2 w-full sm:w-auto justify-center"
             >
-              <Camera className="h-4 w-4 md:h-5 md:w-5 group-hover:scale-110 transition-transform duration-200" />
+              <PhoneCall className="h-4 w-4 md:h-5 md:w-5 group-hover:scale-110 transition-transform duration-200" />
               <span>Call Us For Booking</span>
-            </button>
+            </button></a>
           </div>
 
           {/* Stats */}
