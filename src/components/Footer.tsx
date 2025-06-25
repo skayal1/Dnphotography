@@ -133,7 +133,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0 flex items-center">
-              © 2024 D.N Photography. Design & Developed with <Heart className="h-4 w-4 text-red-500 mx-1" /> <a href='https://sudiptakayal.vercel.app'>SUDIPTA KAYAL</a>
+              © 2025 D.N Photography. Design & Developed with <Heart className="h-4 w-4 text-red-500 mx-1" /> <a href='https://sudiptakayal.vercel.app'>SUDIPTA KAYAL</a>
             </p>
             <div className="flex space-x-6 text-sm text-gray-400">
                 <a href="https://skayal1.github.io/Dnphotography/privacy-policy" className="hover:text-white transition-colors duration-200">Privacy Policy</a>
