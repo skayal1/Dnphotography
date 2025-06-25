@@ -1,0 +1,10 @@
+---
+title: Privacy Policy
+layout: page
+---
+
+# Privacy Policy
+
+Some photos and videos on this website are not owned by us. All such content is sourced from third parties.  
+If anyone claims ownership of any photo or video displayed here, please contact us immediately.  
+We will promptly remove the items in question. For any copyright or ownership concerns, please email us at studiosayantan@gmail.com..
